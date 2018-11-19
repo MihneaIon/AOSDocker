@@ -1,0 +1,5 @@
+com\facultate\aos\appdocker\AppdockerApplication.class
+com\facultate\aos\appdocker\controloers\HomeControler.class
+com\facultate\aos\appdocker\controloers\CRUDControlers.class
+com\facultate\aos\appdocker\model\Person.class
+com\facultate\aos\appdocker\repository\PersonRepository.class

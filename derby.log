@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Nov 18 20:00:37 EET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0167-27fb-2312-00000453fdf8 
+on database directory memory:E:\anul 3 sem 1\Arhitectura orientata pe microservicii\Docker\appdockerweb\testdb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Mihnea-PC/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=E:\anul 3 sem 1\Arhitectura orientata pe microservicii\Docker\appdockerweb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

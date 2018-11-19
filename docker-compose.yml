@@ -1,0 +1,28 @@
+version: "2.3"
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - type: bind
+        source: ./database
+        target: /docker-entrypoint-initdb.d
+
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_DATABASE=lab5
+      - MYSQL_USER=mihnea
+      - MYSQL_PASSWORD=1q2w3e
+    ports:
+      - 3306:3306
+  web:
+    image: appdocker/appdocker-web
+    depends_on:
+      - db
+    ports:
+      - 8080:8080
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_USER=mihnea
+      - DATABASE_PASSWORD=1q2w3e
+      - DATABASE_NAME=lab5
+      - DATABASE_PORT=3306
